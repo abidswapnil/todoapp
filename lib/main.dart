@@ -15,7 +15,7 @@ void main() async {
   await Firebase.initializeApp();
   runApp(MaterialApp(
     routes: {
-      '/' : (context) => Home(),
+      '/' : (context) => const Home(),
     },
   ));
 
